@@ -15,14 +15,14 @@
     <link rel="stylesheet" href="/css/style.css">
     <title><?= $title ?></title>
     <!-- Google tag (gtag.js) -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-WPBG5YWWR2"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WPBG5YWWR2"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'G-WPBG5YWWR2');
-    </script> -->
+    </script>
 </head>
 
 <body>

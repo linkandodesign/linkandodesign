@@ -1,5 +1,5 @@
 <section class="section-inicio" id="sectionInicio">
-    <video id="videoBG" poster="<?= IMG ?>/capa-video.svg" autoplay muted loop>
+    <video id="videoBG" poster="<?= IMG ?>/capa-video.webp" autoplay muted loop>
         <source src="<?= VIDEO ?>/video01.mp4" type="video/mp4">
     </video>
     <div class="container container-inicio">

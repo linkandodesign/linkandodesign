@@ -32,14 +32,14 @@
             <div class="col-12 col-md-6 col-lg-4 mb-2">
                 <div class="img-capa-portfolio capa-xeep">
                     <a href="/portfolio/xeep">
-                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                     </a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mb-2">
                 <div class="img-capa-portfolio capa-mad3">
                     <a href="/portfolio/mad3-by-nerd">
-                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                     </a>
                 </div>
             </div>

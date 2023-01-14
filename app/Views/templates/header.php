@@ -29,7 +29,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top navbar-fixed-top">
         <div class="container">
             <a class="navbar-brand" href="/home">
-                <img class="img-fluid" src="<?= IMG ?>/logo.svg" alt="logo, logotipo menu" />
+                <img class="img-fluid" src="<?= IMG ?>/logo.webp" alt="logo, logotipo menu" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -56,10 +56,10 @@
                 </ul>
                 <div class="text-center mb-4 mb-lg-0">
                     <a class="text-center me-4" target="_blank" href="https://www.instagram.com/linkandodesign/">
-                        <img class="img-social" src="<?= IMG ?>/icone-insta.svg" alt="Imagem instagram">
+                        <img class="img-social img-fluid" src="<?= IMG ?>/icone-insta.webp" alt="Imagem instagram">
                     </a>
                     <a class="text-center" target="_blank" href="https://www.behance.net/linkandodesign">
-                        <img class="img-social" src="<?= IMG ?>/icone-behance.svg" alt="Imagem behance">
+                        <img class="img-social img-fluid" src="<?= IMG ?>/icone-behance.webp" alt="Imagem behance">
                     </a>
                 </div>
             </div>

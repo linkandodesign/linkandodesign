@@ -28,63 +28,63 @@
                             <div class="col-12 col-md-6 col-lg-4 mb-2">
                                 <div class="img-capa-portfolio capa-coopertec">
                                     <a href="/portfolio/coopertec">
-                                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4 mb-2">
                                 <div class="img-capa-portfolio capa-commais">
                                     <a href="/portfolio/com-mais-saude">
-                                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4 mb-2">
                                 <div class="img-capa-portfolio capa-next">
                                     <a href="/portfolio/next-engenharia">
-                                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4 mb-2">
                                 <div class="img-capa-portfolio capa-mariah">
                                     <a href="/portfolio/mariah-furlan">
-                                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4 mb-2">
                                 <div class="img-capa-portfolio capa-xeep">
                                     <a href="/portfolio/xeep">
-                                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4 mb-2">
                                 <div class="img-capa-portfolio capa-mad3">
                                     <a href="/portfolio/mad3-by-nerd">
-                                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4 mb-2">
                                 <div class="img-capa-portfolio capa-instacarlos">
                                     <a href="/portfolio/carlos-lima">
-                                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4 mb-2">
                                 <div class="img-capa-portfolio capa-instacastro">
                                     <a href="/portfolio/castro-simoes">
-                                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4 mb-2">
                                 <div class="img-capa-portfolio capa-instaana">
                                     <a href="/portfolio/ana-rubinho">
-                                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                                     </a>
                                 </div>
                             </div>
@@ -95,21 +95,21 @@
                             <div class="col-12 col-md-6 col-lg-4 mb-2">
                                 <div class="img-capa-portfolio capa-mariah">
                                     <a href="/portfolio/mariah-furlan">
-                                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4 mb-2">
                                 <div class="img-capa-portfolio capa-xeep">
                                     <a href="/portfolio/xeep">
-                                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4 mb-2">
                                 <div class="img-capa-portfolio capa-mad3">
                                     <a href="/portfolio/mad3-by-nerd">
-                                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                                     </a>
                                 </div>
                             </div>
@@ -120,21 +120,21 @@
                             <div class="col-12 col-md-6 col-lg-4 mb-2">
                                 <div class="img-capa-portfolio capa-coopertec">
                                     <a href="/portfolio/coopertec">
-                                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4 mb-2">
                                 <div class="img-capa-portfolio capa-commais">
                                     <a href="/portfolio/com-mais-saude">
-                                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4 mb-2">
                                 <div class="img-capa-portfolio capa-next">
                                     <a href="/portfolio/next-engenharia">
-                                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                                     </a>
                                 </div>
                             </div>
@@ -145,21 +145,21 @@
                             <div class="col-12 col-md-6 col-lg-4 mb-2">
                                 <div class="img-capa-portfolio capa-instacarlos">
                                     <a href="/portfolio/carlos-lima">
-                                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4 mb-2">
                                 <div class="img-capa-portfolio capa-instacastro">
                                     <a href="/portfolio/castro-simoes">
-                                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4 mb-2">
                                 <div class="img-capa-portfolio capa-instaana">
                                     <a href="/portfolio/ana-rubinho">
-                                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                                     </a>
                                 </div>
                             </div>

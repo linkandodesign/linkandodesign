@@ -1,19 +1,19 @@
-<!-- <section class="section-lojahome" id="sectionLojaHome">
+<section class="section-lojahome" id="sectionLojaHome">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6 mb-3">
                 <a href="http://www.reserva.ink/linkandostore" target="_blank">
-                    <img src="<?= IMG ?>/banner01.png" class="img-fluid" alt="Banner camisetas">
+                    <img src="<?= IMG ?>/banner01.webp" class="img-fluid" alt="Banner camisetas">
                 </a>
             </div>
             <div class="col-12 col-lg-6">
                 <a href="loja">
-                    <img src="<?= IMG ?>/banner02.png" class="img-fluid" alt="Banner livros">
+                    <img src="<?= IMG ?>/banner02.webp" class="img-fluid" alt="Banner livros">
                 </a>
             </div>
         </div>
     </div>
-</section> -->
+</section>
 <section class="section-quemsomos" id="sectionQuemSomos">
     <div class="container text-center">
         <h2>QUEM SOMOS <label class="cor-amarela">?</label></h2>
@@ -62,7 +62,7 @@
         <div class="row section-comentarios">
             <div class="col-12 col-lg-4 my-4">
                 <div class="card-comentarios">
-                    <img src="<?= IMG ?>/aspas.svg" class="aspas-comentarios mb-3 img-fluid"
+                    <img src="<?= IMG ?>/aspas.webp" class="aspas-comentarios mb-3 img-fluid"
                         alt="Aspas do card de comentários sobre a Linkando Design." />
                     <p>Amei o trabalho, traduziu exatamente o que eu queria! Muito obrigada!</p>
                     <p class="autor-comentario mb-0">Mariah</p>
@@ -70,7 +70,7 @@
             </div>
             <div class="col-12 col-lg-4 my-4">
                 <div class="card-comentarios">
-                    <img src="<?= IMG ?>/aspas.svg" class="aspas-comentarios mb-3 img-fluid"
+                    <img src="<?= IMG ?>/aspas.webp" class="aspas-comentarios mb-3 img-fluid"
                         alt="Aspas do card de comentários sobre a Linkando Design." />
                     <p>Gostei bastante, ficou show! Simples, logo fácil de imprimir, adaptável, e estilo estiloso. É perfeito!</p>
                     <p class="autor-comentario mb-0">Antonio</p>
@@ -78,7 +78,7 @@
             </div>
             <div class="col-12 col-lg-4 my-4">
                 <div class="card-comentarios">
-                    <img src="<?= IMG ?>/aspas.svg" class="aspas-comentarios mb-3 img-fluid"
+                    <img src="<?= IMG ?>/aspas.webp" class="aspas-comentarios mb-3 img-fluid"
                         alt="Aspas do card de comentários sobre a Linkando Design." />
                     <p>Gente eu amei minha logo, já profetizo ela na minha parede, eu achei lindo, lindo!</p>
                     <p class="autor-comentario mb-0">Ana</p>
@@ -117,63 +117,63 @@
             <div class="col-12 col-md-6 col-lg-4 mb-2">
                 <div class="img-capa-portfolio capa-coopertec">
                     <a href="portfolio/coopertec">
-                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                     </a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mb-2">
                 <div class="img-capa-portfolio capa-commais">
                     <a href="portfolio/com-mais-saude">
-                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                     </a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mb-2">
                 <div class="img-capa-portfolio capa-next">
                     <a href="portfolio/next-engenharia">
-                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                     </a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mb-2">
                 <div class="img-capa-portfolio capa-mariah">
                     <a href="portfolio/mariah-furlan">
-                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                     </a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mb-2">
                 <div class="img-capa-portfolio capa-xeep">
                     <a href="portfolio/xeep">
-                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                     </a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mb-2">
                 <div class="img-capa-portfolio capa-mad3">
                     <a href="portfolio/mad3-by-nerd">
-                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                     </a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mb-2">
                <div class="img-capa-portfolio capa-instacarlos">
                     <a href="portfolio/carlos-lima">
-                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                     </a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mb-2">
                 <div class="img-capa-portfolio capa-instacastro">
                     <a href="portfolio/castro-simoes">
-                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                     </a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mb-2">
                 <div class="img-capa-portfolio capa-instaana">
                     <a href="portfolio/ana-rubinho">
-                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                     </a>
                 </div>
             </div>
@@ -200,33 +200,39 @@
             <h2>PORQUE CRIAR COM A LINKANDO <label class="cor-amarela">?</label></h2>
             <div class="row text-center justify-content-center align-items-center texto-light pt-4 my-5">
                 <div class="col-12 col-lg-auto pe-4">Atrair</div>
-                <div class="col-12 col-lg-auto pe-4"><img class="img-fluid" src="<?= IMG ?>/array-right.svg" alt="Seta Direita"></div>
+                <div class="col-12 col-lg-auto pe-4">
+                    <img class="img-fluid img-seta-motivos" src="<?= IMG ?>/array-right.webp" alt="Seta Direita">
+                </div>
                 <div class="col-12 col-lg-auto pe-4">Converter</div>
-                <div class="col-12 col-lg-auto pe-4"><img class="img-fluid" src="<?= IMG ?>/array-right.svg" alt="Seta Direita"></div>
+                <div class="col-12 col-lg-auto pe-4">
+                    <img class="img-fluid img-seta-motivos" src="<?= IMG ?>/array-right.webp" alt="Seta Direita">
+                </div>
                 <div class="col-12 col-lg-auto pe-4">Manter</div>
-                <div class="col-12 col-lg-auto pe-4"><img class="img-fluid" src="<?= IMG ?>/array-right.svg" alt="Seta Direita"></div>
+                <div class="col-12 col-lg-auto pe-4">
+                    <img class="img-fluid img-seta-motivos" src="<?= IMG ?>/array-right.webp" alt="Seta Direita">
+                </div>
                 <div class="col-12 col-lg-auto">Expandir</div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-auto mt-5">
-                    <img class="img-fluid" src="<?= IMG ?>/vantagem1.svg" alt="Vantagem 1">
+                    <img class="img-fluid" src="<?= IMG ?>/vantagem1.webp" alt="Vantagem 1">
                 </div>
                 <div class="col-auto mt-5">
-                    <img class="img-fluid" src="<?= IMG ?>/vantagem2.svg" alt="Vantagem 2">
+                    <img class="img-fluid" src="<?= IMG ?>/vantagem2.webp" alt="Vantagem 2">
                 </div>
                 <div class="col-auto mt-5">
-                    <img class="img-fluid" src="<?= IMG ?>/vantagem3.svg" alt="Vantagem 3">
+                    <img class="img-fluid" src="<?= IMG ?>/vantagem3.webp" alt="Vantagem 3">
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-auto mt-5">
-                    <img class="img-fluid" src="<?= IMG ?>/vantagem4.svg" alt="Vantagem 4">
+                    <img class="img-fluid" src="<?= IMG ?>/vantagem4.webp" alt="Vantagem 4">
                 </div>
                 <div class="col-auto mt-5">
-                    <img class="img-fluid" src="<?= IMG ?>/vantagem5.svg" alt="Vantagem 5">
+                    <img class="img-fluid" src="<?= IMG ?>/vantagem5.webp" alt="Vantagem 5">
                 </div>
                 <div class="col-auto mt-5">
-                    <img class="img-fluid" src="<?= IMG ?>/vantagem6.svg" alt="Vantagem 6">
+                    <img class="img-fluid" src="<?= IMG ?>/vantagem6.webp" alt="Vantagem 6">
                 </div>
             </div>
             <div class="row justify-content-center pt-5 mt-5 mb-porquecriar">
@@ -237,34 +243,34 @@
         </div>
     </div>
 </section>
-<!-- <section class="section-materiais text-center" id="sectionMateriais">
+<section class="section-materiais text-center" id="sectionMateriais">
     <div class="container">
         <h3>CONFIRA ALGUNS DOS ÍTENS DA NOSSA LOJA</h3>
         <div class="row mt-5">
             <div class="col-12 col-lg-3 mt-4">
                 <div class="card">
-                    <img class="img-fluid mb-3" src="<?= IMG ?>/camiseta-minimal.png" alt="Imagem camiseta">
+                    <img class="img-fluid mb-3" src="<?= IMG ?>/camiseta-minimal.webp" alt="Imagem camiseta">
                     <button class="btn btn-tema px-0 w-100">Ver mais</button>
                 </div>
             </div>
             <div class="col-12 col-lg-3 mt-4">
                 <div class="card">
-                    <img class="img-fluid mb-3" src="<?= IMG ?>/camiseta-formas.png" alt="Imagem camiseta">
+                    <img class="img-fluid mb-3" src="<?= IMG ?>/camiseta-formas.webp" alt="Imagem camiseta">
                     <button class="btn btn-tema px-0 w-100">Ver mais</button>
                 </div>
             </div>
             <div class="col-12 col-lg-3 mt-4">
                 <div class="card">
-                    <img class="img-fluid mb-3" src="<?= IMG ?>/livro-design-identidade-marca.svg" alt="Imagem livro">
+                    <img class="img-fluid mb-3" src="<?= IMG ?>/livro-design-identidade-marca.webp" alt="Imagem livro">
                     <button class="btn btn-tema px-0 w-100">Ver mais</button>
                 </div>
             </div>
             <div class="col-12 col-lg-3 mt-4">
                 <div class="card">
-                    <img class="img-fluid mb-3" src="<?= IMG ?>/livro-psico-cores.svg" alt="Imagem livro">
+                    <img class="img-fluid mb-3" src="<?= IMG ?>/livro-psico-cores.webp" alt="Imagem livro">
                     <button class="btn btn-tema px-0 w-100">Ver mais</button>
                 </div>
             </div>
         </div>
     </div>
-</section> -->
+</section>

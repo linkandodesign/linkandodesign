@@ -30,14 +30,14 @@
             <div class="col-12 col-md-6 col-lg-4 mb-2">
                 <div class="img-capa-portfolio capa-coopertec">
                     <a href="/portfolio/coopertec">
-                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                     </a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mb-2">
                 <div class="img-capa-portfolio capa-next">
                     <a href="/portfolio/next-engenharia">
-                        <img src="<?= IMG ?>/capa-portfolio.png" alt="capa">
+                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
                     </a>
                 </div>
             </div>

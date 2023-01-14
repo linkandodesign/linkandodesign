@@ -9,7 +9,7 @@
             <a href="https://api.whatsapp.com/send?phone=5544991024165&text=Ol%C3%A1,%20gostaria%20de%20um%20or%C3%A7amento." target="_blank">
             <div class="card text-center card-contato">
                     <label>WHATS</label>
-                    <img class="img-fluid my-4" src="<?= IMG ?>/iconecardwhats.svg" alt="Ícone whatsapp">
+                    <img class="img-fluid my-4" src="<?= IMG ?>/iconecardwhats.webp" alt="Ícone whatsapp">
                     <p>44 9102-4165</p>
                 </div>    
             </a>

@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg text-center mb-5">
-                    <img src="<?= IMG ?>/logo-rodape.svg" alt="Logo da Linkando Design no rodapé do site.">
+                    <img src="<?= IMG ?>/logo-rodape.webp" alt="Logo da Linkando Design no rodapé do site.">
                 </div>
             </div>
             <div class="row text-center mt-3 mx-lg-5">
@@ -36,7 +36,7 @@
 </footer>
 <div class="whats">
     <a href="https://api.whatsapp.com/send?phone=5544991024165&text=Ol%C3%A1,%20vim%20pelo%20site,%20gostaria%20de%20um%20atendimento." target="_blank">
-        <img class="img-fluid" src="<?= IMG ?>/whats.webp" alt="Whatsapp flutuante para contato com a Linkando Design.">
+        <img class="img-fluid" src="<?= IMG ?>/whats.svg" alt="Whatsapp flutuante para contato com a Linkando Design.">
     </a>
 </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"

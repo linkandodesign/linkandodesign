@@ -152,7 +152,7 @@
             <div class="col-12 col-lg-5 mb-5">
                 <div class="card card-contato text-center">
                     <label>E-MAIL</label>
-                    <img class="img-fluid my-4" src="<?= IMG ?>/iconecardemail.svg" alt="Ícone e-mail">
+                    <img class="img-fluid my-4" src="<?= IMG ?>/iconecardemail.webp" alt="Ícone e-mail">
                     <p>contato@linkandodesign.com.br</p>
                 </div>    
             </div>
@@ -160,7 +160,7 @@
                 <a href="https://api.whatsapp.com/send?phone=5544991024165&text=Ol%C3%A1,%20n%C3%A3o%20encontrei%20o%20que%20procurava%20no%20site,%20poderia%20me%20ajudar?" target="_blank">
                 <div class="card card-contato text-center">
                         <label>WHATS</label>
-                        <img class="img-fluid my-4" src="<?= IMG ?>/iconecardwhats.svg" alt="Ícone whatsapp">
+                        <img class="img-fluid my-4" src="<?= IMG ?>/iconecardwhats.webp" alt="Ícone whatsapp">
                         <p>44 9102-4165</p>
                     </div>    
                 </a>

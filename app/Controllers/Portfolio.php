@@ -6,7 +6,7 @@ class Portfolio extends BaseController
 {
     public function index()
     {
-        $dataHeader['title'] = "Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
+        $dataHeader['title'] = "Portfólio - Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
         $dataHome['title'] = "PORTFÓLIO";
         echo view('/templates/header', $dataHeader);
         echo view('/templates/banner-subpages', $dataHome);
@@ -16,7 +16,7 @@ class Portfolio extends BaseController
 
     public function coopertec()
     {
-        $dataHeader['title'] = "Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
+        $dataHeader['title'] = "CooperTec - Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
         $dataHome['title'] = "PORTFÓLIO";
         echo view('/templates/header', $dataHeader);
         echo view('/templates/banner-subpages', $dataHome);
@@ -26,7 +26,7 @@ class Portfolio extends BaseController
     
     public function comMaisSaude()
     {
-        $dataHeader['title'] = "Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
+        $dataHeader['title'] = "Com + Saúde - Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
         $dataHome['title'] = "PORTFÓLIO";
         echo view('/templates/header', $dataHeader);
         echo view('/templates/banner-subpages', $dataHome);
@@ -36,7 +36,7 @@ class Portfolio extends BaseController
 
     public function nextEngenharia()
     {
-        $dataHeader['title'] = "Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
+        $dataHeader['title'] = "Next Engenharia - Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
         $dataHome['title'] = "PORTFÓLIO";
         echo view('/templates/header', $dataHeader);
         echo view('/templates/banner-subpages', $dataHome);
@@ -46,7 +46,7 @@ class Portfolio extends BaseController
 
     public function mariahFurlan()
     {
-        $dataHeader['title'] = "Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
+        $dataHeader['title'] = "Mariah Furlan Acessórios - Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
         $dataHome['title'] = "PORTFÓLIO";
         echo view('/templates/header', $dataHeader);
         echo view('/templates/banner-subpages', $dataHome);
@@ -56,7 +56,7 @@ class Portfolio extends BaseController
 
     public function xeep()
     {
-        $dataHeader['title'] = "Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
+        $dataHeader['title'] = "Xeep - Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
         $dataHome['title'] = "PORTFÓLIO";
         echo view('/templates/header', $dataHeader);
         echo view('/templates/banner-subpages', $dataHome);
@@ -66,7 +66,7 @@ class Portfolio extends BaseController
 
     public function mad3ByNerd()
     {
-        $dataHeader['title'] = "Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
+        $dataHeader['title'] = "Mad3 by Nerd - Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
         $dataHome['title'] = "PORTFÓLIO";
         echo view('/templates/header', $dataHeader);
         echo view('/templates/banner-subpages', $dataHome);
@@ -76,7 +76,7 @@ class Portfolio extends BaseController
 
     public function carlosLima()
     {
-        $dataHeader['title'] = "Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
+        $dataHeader['title'] = "Carlos Lima Design - Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
         $dataHome['title'] = "PORTFÓLIO";
         echo view('/templates/header', $dataHeader);
         echo view('/templates/banner-subpages', $dataHome);
@@ -86,7 +86,7 @@ class Portfolio extends BaseController
 
     public function castroSimoes()
     {
-        $dataHeader['title'] = "Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
+        $dataHeader['title'] = "Castro e Simões Advocacia - Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
         $dataHome['title'] = "PORTFÓLIO";
         echo view('/templates/header', $dataHeader);
         echo view('/templates/banner-subpages', $dataHome);
@@ -96,7 +96,7 @@ class Portfolio extends BaseController
 
     public function anaRubinho()
     {
-        $dataHeader['title'] = "Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
+        $dataHeader['title'] = "Ana Rubinho Social Media - Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
         $dataHome['title'] = "PORTFÓLIO";
         echo view('/templates/header', $dataHeader);
         echo view('/templates/banner-subpages', $dataHome);

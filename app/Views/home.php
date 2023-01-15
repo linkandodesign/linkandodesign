@@ -247,25 +247,25 @@
     <div class="container">
         <h3>CONFIRA ALGUNS DOS ÍTENS DA NOSSA LOJA</h3>
         <div class="row mt-5">
-            <div class="col-12 col-lg-3 mt-4">
+            <div class="col-12 col-md-6 col-lg-3 mt-4">
                 <div class="card">
                     <img class="img-fluid mb-3" src="<?= IMG ?>/camiseta-minimal.webp" alt="Imagem camiseta">
                     <button class="btn btn-tema px-0 w-100">Ver mais</button>
                 </div>
             </div>
-            <div class="col-12 col-lg-3 mt-4">
+            <div class="col-12 col-md-6 col-lg-3 mt-4">
                 <div class="card">
                     <img class="img-fluid mb-3" src="<?= IMG ?>/camiseta-formas.webp" alt="Imagem camiseta">
                     <button class="btn btn-tema px-0 w-100">Ver mais</button>
                 </div>
             </div>
-            <div class="col-12 col-lg-3 mt-4">
+            <div class="col-12 col-md-6 col-lg-3 mt-4">
                 <div class="card">
                     <img class="img-fluid mb-3" src="<?= IMG ?>/livro-design-identidade-marca.webp" alt="Imagem livro">
                     <button class="btn btn-tema px-0 w-100">Ver mais</button>
                 </div>
             </div>
-            <div class="col-12 col-lg-3 mt-4">
+            <div class="col-12 col-md-6 col-lg-3 mt-4">
                 <div class="card">
                     <img class="img-fluid mb-3" src="<?= IMG ?>/livro-psico-cores.webp" alt="Imagem livro">
                     <button class="btn btn-tema px-0 w-100">Ver mais</button>

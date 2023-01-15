@@ -36,6 +36,7 @@ body {
 
 .navbar-toggler {
     min-height: 85px;
+    margin-right: -1rem;
     border: none;
 }
 
@@ -610,9 +611,12 @@ input ~ label, textarea ~ label, .form-floating>label, .body-portfolio .referenc
 
 }
 
-@media (max-width: 575.98px) { 
-    .texto-portfolio-coopertec, .texto-portfolio-next, .texto-portfolio-mariah, .texto-portfolio-mad3 {
+@media (max-width: 992px) { 
+    .texto-portfolio-coopertec, .texto-portfolio-next, .texto-portfolio-mariah, .texto-portfolio-mad3, .texto-portfolio-xeep {
         padding: 0 1.5rem;
+    }
+    .img-seta-motivos {
+        transform: rotate(90deg);
     }
 }
 

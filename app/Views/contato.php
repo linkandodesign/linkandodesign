@@ -10,7 +10,7 @@
                 </svg>
             </div>
             <div class="col-12 col-lg-12 text-center mb-5">
-                <a href="/duvidas" class="btn btn-tema">perguntas frequentes</a>
+                <a href="/duvidas" class="btn btn-tema">Perguntas frequentes</a>
             </div>
         </div>
         <div class="row justify-content-center mt-5">

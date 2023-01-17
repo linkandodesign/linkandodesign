@@ -5,10 +5,10 @@
     <div class="container container-inicio">
         <div class="row">
             <div class="col-12 text-center mt-lg-5">
-                <div class="meio-inicio mx-auto">
-                    <p class="cor-amarela text-lg-start mb-4">_________________</p>
-                    <h1 class="m-0"><?= $title ?></h1>
-                    <p class="cor-amarela text-lg-end m-0">_________________</p>
+                <div class="meio-inicio mx-auto pb-lg-2">
+                    <p class="w-100"><div class="linha-banner mx-auto mx-lg-0 ms-lg-auto"></div></p>
+                    <h1 class="my-4"><?= $title ?></h1>
+                    <p class="w-100"><div class="linha-banner mx-auto mx-lg-0 me-lg-auto"></div></p>
                 </div>
                 <div class="col-12 mt-5 text-center">
                     <a class="btn btn-tema" href="/portfolio">Ver projetos</a>
@@ -20,38 +20,38 @@
         <div class="container-fluid">
             <div class="row">
                 <div id="sliderHeader" class="keen-slider">
-                    <div class="keen-slider__slide number-slide1" style="min-width: 130px; max-width: 130px">
-                        Branding
+                <div class="keen-slider__slide number-slide1" style="min-width: 130px; max-width: 130px">
+                        <label>Branding</label>
                     </div>
                     <div class="keen-slider__slide number-slide2" style="min-width: 200px; max-width: 200px">
                         <img src="<?= IMG ?>/triangulo-menu.svg" alt="dot">
                     </div>
                     <div class="keen-slider__slide number-slide3" style="min-width: 430px; max-width: 430px">
-                        Interface e Experiência de Usuário
+                        <label>Interface e Experiência de Usuário</label>
                     </div>
                     <div class="keen-slider__slide number-slide4" style="min-width: 200px; max-width: 200px">
                         <img src="<?= IMG ?>/triangulo-menu.svg" alt="dot">
                     </div>
                     <div class="keen-slider__slide number-slide5" style="min-width: 160px; max-width: 160px">
-                        Social Media
+                        <label>Social Media</label>
                     </div>
                     <div class="keen-slider__slide number-slide6" style="min-width: 200px; max-width: 200px">
                         <img src="<?= IMG ?>/triangulo-menu.svg" alt="dot">
                     </div>
                     <div class="keen-slider__slide number-slide7" style="min-width: 130px; max-width: 130px">
-                        Branding
+                        <label>Branding</label>
                     </div>
                     <div class="keen-slider__slide number-slide8" style="min-width: 200px; max-width: 200px">
                         <img src="<?= IMG ?>/triangulo-menu.svg" alt="dot">
                     </div>
                     <div class="keen-slider__slide number-slide9" style="min-width: 430px; max-width: 430px">
-                        Interface e Experiência de Usuário
+                        <label>Interface e Experiência de Usuário</label>
                     </div>
                     <div class="keen-slider__slide number-slide10" style="min-width: 200px; max-width: 200px">
                         <img src="<?= IMG ?>/triangulo-menu.svg" alt="dot">
                     </div>
                     <div class="keen-slider__slide number-slide11" style="min-width: 160px; max-width: 160px">
-                        Social Media
+                        <label>Social Media</label>
                     </div>
                     <div class="keen-slider__slide number-slide12" style="min-width: 200px; max-width: 200px">
                         <img src="<?= IMG ?>/triangulo-menu.svg" alt="dot">

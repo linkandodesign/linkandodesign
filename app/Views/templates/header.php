@@ -15,13 +15,13 @@
     <link rel="stylesheet" href="<?= CSS ?>/style.css">
     <title><?= $title ?></title>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WPBG5YWWR2"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-WPBG5YWWR2"></script> -->
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+        // window.dataLayer = window.dataLayer || [];
+        // function gtag(){dataLayer.push(arguments);}
+        // gtag('js', new Date());
 
-        gtag('config', 'G-WPBG5YWWR2');
+        // gtag('config', 'G-WPBG5YWWR2');
     </script>
 </head>
 
@@ -39,19 +39,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item ms-lg-4">
-                        <a class="nav-link text-center" href="/home">Home</a>
+                        <a class="nav-link text-center <?= $active['home'] == true ? 'cor-amarela' : '' ?>" href="/home">Home</a>
                     </li>
                     <li class="nav-item ms-lg-4">
-                        <a class="nav-link text-center" href="/portfolio">Portfólio</a>
+                        <a class="nav-link text-center <?= $active['portfolio'] == true ? 'cor-amarela' : '' ?>" href="/portfolio">Portfólio</a>
                     </li>
                     <li class="nav-item ms-lg-4">
-                        <a class="nav-link text-center" href="/contato">Contato</a>
+                        <a class="nav-link text-center <?= $active['contato'] == true ? 'cor-amarela' : '' ?>" href="/contato">Contato</a>
                     </li>
                     <li class="nav-item ms-lg-4">
-                        <a class="nav-link text-center" href="/orcamento">Orçamento</a>
+                        <a class="nav-link text-center <?= $active['orcamento'] == true ? 'cor-amarela' : '' ?>" href="/orcamento">Orçamento</a>
                     </li>
                     <li class="nav-item ms-lg-4">
-                        <a class="nav-link text-center" href="/duvidas">Dúvidas</a>
+                        <a class="nav-link text-center <?= $active['duvidas'] == true ? 'cor-amarela' : '' ?>" href="/duvidas">Dúvidas</a>
                     </li>
                 </ul>
                 <div class="text-center mb-4 mb-lg-0">

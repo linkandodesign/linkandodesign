@@ -7,6 +7,7 @@ class Duvidas extends BaseController
     public function index()
     {
         $dadosHeader['title'] = "Dúvidas - Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
+        $dadosHeader['active'] = ['home'=>false, 'portfolio'=>false, 'contato'=>false, 'orcamento'=>false, 'duvidas'=>true, 'blog'=>false, 'loja'=>false];
         $dataContato['title'] = "DÚVIDAS";
         $dados['dados_todos'] = $this->perguntasTodos();
         $dados['dados_branding'] = $this->perguntasBranding();

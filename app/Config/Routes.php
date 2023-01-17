@@ -34,6 +34,7 @@ $routes->get('/home', 'Home::index');
 $routes->get('/contato', 'Contato::index');
 $routes->get('/duvidas', 'Duvidas::index');
 $routes->get('/orcamento', 'Orcamento::index');
+$routes->get('/loja', 'Loja::index');
 $routes->get('/portfolio', 'Portfolio::index');
 $routes->get('/portfolio/coopertec', 'Portfolio::coopertec');
 $routes->get('/portfolio/com-mais-saude', 'Portfolio::comMaisSAude');

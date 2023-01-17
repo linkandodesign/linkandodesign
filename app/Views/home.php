@@ -1,4 +1,4 @@
-<section class="section-lojahome" id="sectionLojaHome">
+<!-- <section class="section-lojahome" id="sectionLojaHome">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6 mb-3">
@@ -13,7 +13,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <section class="section-quemsomos" id="sectionQuemSomos">
     <div class="container text-center">
         <h2>QUEM SOMOS <label class="cor-amarela">?</label></h2>
@@ -243,7 +243,7 @@
         </div>
     </div>
 </section>
-<section class="section-materiais text-center" id="sectionMateriais">
+<!-- <section class="section-materiais text-center" id="sectionMateriais">
     <div class="container">
         <h3>CONFIRA ALGUNS DOS ÍTENS DA NOSSA LOJA</h3>
         <div class="row mt-5">
@@ -273,4 +273,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->

@@ -43,6 +43,13 @@
                     </a>
                 </div>
             </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-2">
+                <div class="img-capa-portfolio capa-ana-deganello">
+                    <a href="/portfolio/ana-deganello">
+                        <img src="<?= IMG ?>/capa-portfolio.webp" alt="capa">
+                    </a>
+                </div>
+            </div>
         </div>
         <div class="row mt-5 text-center">
             <div class="col">

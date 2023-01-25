@@ -99,6 +99,15 @@ nav.navbar {
     color: var(--cor-amarela);
 }
 
+a.link-comentario {
+    color: var(--preto-principal);
+    font-size: 14px;
+}
+
+a.link-comentario:hover {
+    color: var(--texto-fundo-preto);
+}
+
 .section-inicio {
     color: var(--texto-fundo-preto);
     height: 460px;
@@ -354,7 +363,7 @@ h2 label, h3 label {
 
 .section-comentarios .card-comentarios {
     background-color: #fff;
-    box-shadow: 0px 10px 20px rgba(122, 119, 134, 0.1);
+    box-shadow: 0px 10px 30px rgba(122, 119, 134, 0.15);
     border-radius: 6px;
     padding: 60px;
     color: var(--preto-principal);
@@ -408,7 +417,7 @@ input ~ label, textarea ~ label, .form-floating>label, .body-portfolio .referenc
 }
 
 .card {
-    box-shadow: 0px 10px 20px rgba(122, 119, 134, 0.1);
+    box-shadow: 0px 10px 30px rgba(122, 119, 134, 0.15);
     border-radius: 6px;
     padding: 2em;
     border: none;
@@ -466,6 +475,14 @@ input ~ label, textarea ~ label, .form-floating>label, .body-portfolio .referenc
 }
 .capa-mad3:hover {
     background-image: url(../img/card-mad3-ativo.webp);
+}
+
+/* ana deganello */
+.capa-ana-deganello {
+    background-image: url(../img/card-ana-deganello.webp);
+}
+.capa-ana-deganello:hover {
+    background-image: url(../img/card-ana-deganello-ativo.webp);
 }
 
 /* cooper tec */
@@ -528,6 +545,7 @@ input ~ label, textarea ~ label, .form-floating>label, .body-portfolio .referenc
 .texto-portfolio-next, 
 .texto-portfolio-mariah,
 .texto-portfolio-mad3,
+.texto-portfolio-ana-deganello,
 .texto-portfolio-xeep {
     color: #27272B !important;
     padding: 0 5rem;
@@ -555,7 +573,7 @@ input ~ label, textarea ~ label, .form-floating>label, .body-portfolio .referenc
     color: #005D00;
 }
 
-.body-portfolio .texto-en {
+.body-portfolio .texto-en, .texto-en ~* {
     font-size: 14px;
 }
 
@@ -625,7 +643,12 @@ input ~ label, textarea ~ label, .form-floating>label, .body-portfolio .referenc
 }
 
 @media (max-width: 992px) { 
-    .texto-portfolio-coopertec, .texto-portfolio-next, .texto-portfolio-mariah, .texto-portfolio-mad3, .texto-portfolio-xeep {
+    .texto-portfolio-coopertec, 
+    .texto-portfolio-ana-deganello, 
+    .texto-portfolio-next, 
+    .texto-portfolio-mariah, 
+    .texto-portfolio-mad3, 
+    .texto-portfolio-xeep {
         padding: 0 1.5rem;
     }
     .img-seta-motivos {

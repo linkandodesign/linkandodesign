@@ -81,6 +81,17 @@ class Portfolio extends BaseController
         echo view('/templates/footer');
     }
 
+    public function anaDeganello()
+    {
+        $dadosHeader['title'] = "Ana Deganello - Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";
+        $dadosHeader['active'] = ['home'=>false, 'portfolio'=>true, 'contato'=>false, 'orcamento'=>false, 'duvidas'=>false, 'blog'=>false, 'loja'=>false];
+        $dataHome['title'] = "PORTFÓLIO";
+        echo view('/templates/header', $dadosHeader);
+        echo view('/templates/banner-subpages', $dataHome);
+        echo view('/portfolio/ana-deganello');
+        echo view('/templates/footer');
+    }
+
     public function carlosLima()
     {
         $dadosHeader['title'] = "Carlos Lima Design - Linkando Design: Identidade Visual - Logo - UI/UX - Social Media #design #marca #logo";

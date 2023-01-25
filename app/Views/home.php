@@ -1,4 +1,4 @@
-<!-- <section class="section-lojahome" id="sectionLojaHome">
+<section class="section-lojahome" id="sectionLojaHome">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6 mb-3">
@@ -13,7 +13,7 @@
             </div>
         </div>
     </div>
-</section> -->
+</section>
 <section class="section-quemsomos" id="sectionQuemSomos">
     <div class="container text-center">
         <h2>QUEM SOMOS <label class="cor-amarela">?</label></h2>
@@ -66,22 +66,25 @@
                         alt="Aspas do card de comentários sobre a Linkando Design." />
                     <p>Amei o trabalho, traduziu exatamente o que eu queria! Muito obrigada!</p>
                     <p class="autor-comentario mb-0">Mariah</p>
+                    <a class="mb-0 link-comentario" href="/portfolio/mariah-furlan">Mariah Furlan Acessórios</a>
                 </div>
             </div>
             <div class="col-12 col-lg-4 my-4">
                 <div class="card-comentarios">
                     <img src="<?= IMG ?>/aspas.webp" class="aspas-comentarios mb-3 img-fluid"
-                        alt="Aspas do card de comentários sobre a Linkando Design." />
+                    alt="Aspas do card de comentários sobre a Linkando Design." />
                     <p>Gostei bastante, ficou show! Simples, logo fácil de imprimir, adaptável, e estilo estiloso. É perfeito!</p>
                     <p class="autor-comentario mb-0">Antonio</p>
+                    <a class="mb-0 link-comentario" href="/portfolio/mad3-by-nerd">mad3 by nerd</a>
                 </div>
             </div>
             <div class="col-12 col-lg-4 my-4">
                 <div class="card-comentarios">
                     <img src="<?= IMG ?>/aspas.webp" class="aspas-comentarios mb-3 img-fluid"
-                        alt="Aspas do card de comentários sobre a Linkando Design." />
+                    alt="Aspas do card de comentários sobre a Linkando Design." />
                     <p>Gente eu amei minha logo, já profetizo ela na minha parede, eu achei lindo, lindo!</p>
                     <p class="autor-comentario mb-0">Ana</p>
+                    <a class="mb-0 link-comentario" href="/portfolio/ana-deganello">Ana Deganello Lash Designer</a>
                 </div>
             </div>
         </div>
@@ -93,9 +96,9 @@
         <div class="row mb-5 desc-servicos">
             <div class="col-12 col-lg-4 my-5">
                 <h3 class="mb-4">DESIGN DE MARCAS</h3>
-                <p>Identidade visual</p>
-                <p>Logotipo</p>
+                <p>Branding</p>
                 <p>Rebranding</p>
+                <p>Identidade visual</p>
             </div>
             <div class="col-12 col-lg-4 my-5">
                 <h3 class="mb-4">UI/UX DESIGN</h3>
@@ -243,7 +246,7 @@
         </div>
     </div>
 </section>
-<!-- <section class="section-materiais text-center" id="sectionMateriais">
+<section class="section-materiais text-center" id="sectionMateriais">
     <div class="container">
         <h3>CONFIRA ALGUNS DOS ÍTENS DA NOSSA LOJA</h3>
         <div class="row mt-5">
@@ -273,4 +276,4 @@
             </div>
         </div>
     </div>
-</section> -->
+</section>

@@ -42,6 +42,7 @@ $routes->get('/portfolio/next-engenharia', 'Portfolio::nextEngenharia');
 $routes->get('/portfolio/mariah-furlan', 'Portfolio::mariahFurlan');
 $routes->get('/portfolio/xeep', 'Portfolio::xeep');
 $routes->get('/portfolio/mad3-by-nerd', 'Portfolio::mad3ByNerd');
+$routes->get('/portfolio/ana-deganello', 'Portfolio::anaDeganello');
 $routes->get('/portfolio/carlos-lima', 'Portfolio::carlosLima');
 $routes->get('/portfolio/castro-simoes', 'Portfolio::castroSimoes');
 $routes->get('/portfolio/ana-rubinho', 'Portfolio::anaRubinho');

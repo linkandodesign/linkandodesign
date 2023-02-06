@@ -30,6 +30,7 @@
                 <img src="<?= IMG ?>/ana-deganello/16.webp" class="img-fluid mb-2" alt="Ana Deganello Lash Designer">
                 <img src="<?= IMG ?>/ana-deganello/13.webp" class="img-fluid mb-2" alt="Ana Deganello Lash Designer">
                 <img src="<?= IMG ?>/ana-deganello/17.webp" class="img-fluid mb-2" alt="Ana Deganello Lash Designer">
+                <img src="<?= IMG ?>/ana-deganello/18.webp" class="img-fluid mb-2" alt="Ana Deganello Lash Designer">
             </div>
         </div>
         <div class="row mt-5">

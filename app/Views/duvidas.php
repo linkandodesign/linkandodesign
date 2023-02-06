@@ -24,7 +24,7 @@
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-6 mb-3">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="pesquisaTodos" onkeyup="pesquisaTodos()" placeholder="Pesquisar em todos">
+                                    <input type="text" class="form-control" id="pesquisaTodos" onkeyup="pesquisa('Todos')" placeholder="Pesquisar em todos">
                                     <label for="pesquisaTodos">Pesquisar em todos...</label>
                                 </div>
                             </div>
@@ -54,7 +54,7 @@
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-6 mb-2">
                                 <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="pesquisaBranding" onkeyup="pesquisaBranding()" placeholder="Pesquisar em branding">
+                                    <input type="text" class="form-control" id="pesquisaBranding" onkeyup="pesquisa('Branding')" placeholder="Pesquisar em branding">
                                     <label for="pesquisaBranding">Pesquisar em branding...</label>
                                 </div>
                             </div>
@@ -84,7 +84,7 @@
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-6 mb-2">
                                 <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="pesquisaUiUx" onkeyup="pesquisaUiUx()" placeholder="Pesquisar em UI/UX">
+                                    <input type="text" class="form-control" id="pesquisaUiUx" onkeyup="pesquisa('UiUx')" placeholder="Pesquisar em UI/UX">
                                     <label for="pesquisaUiUx">Pesquisar em UI/UX...</label>
                                 </div>
                             </div>
@@ -114,7 +114,7 @@
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-6 mb-2">
                                 <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="pesquisaSocialMedia" onkeyup="pesquisaSocialMedia()" placeholder="Pesquisar em social media">
+                                    <input type="text" class="form-control" id="pesquisaSocialMedia" onkeyup="pesquisa('SocialMedia')" placeholder="Pesquisar em social media">
                                     <label for="pesquisaSocialMedia">Pesquisar em social media...</label>
                                 </div>
                             </div>
@@ -143,18 +143,20 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-5 justify-content-center">
+        <div class="row justify-content-center">
             <div class="col-12 col-lg-6 text-center">
                 <p>Não encontrou o que procurava? Entre em contato com a gente.</p>
             </div>
         </div>
         <div class="row justify-content-center mt-5">
             <div class="col-12 col-lg-5 mb-5">
-                <div class="card card-contato text-center">
-                    <label>E-MAIL</label>
-                    <img class="img-fluid my-4" src="<?= IMG ?>/iconecardemail.webp" alt="Ícone e-mail">
-                    <p>contato@linkandodesign.com.br</p>
-                </div>    
+                <a href="mailto:contato@linkandodesign.com.br?subject=Contato através do site - Dúvidas&cc=linkandodesign@gmail.com&body=Oi, vim pelo site, tenho uma dúvida, podem me ajudar?">
+                    <div class="card card-contato text-center">
+                        <label>E-MAIL</label>
+                        <img class="img-fluid my-4" src="<?= IMG ?>/iconecardemail.webp" alt="Ícone e-mail">
+                        <p>contato@linkandodesign.com.br</p>
+                    </div>
+                </a>    
             </div>
             <div class="col-12 col-lg-5 mb-5">
                 <a href="https://api.whatsapp.com/send?phone=5544991024165&text=Ol%C3%A1,%20n%C3%A3o%20encontrei%20o%20que%20procurava%20no%20site,%20poderia%20me%20ajudar?" target="_blank">

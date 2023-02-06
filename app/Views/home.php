@@ -66,7 +66,7 @@
                         alt="Aspas do card de comentários sobre a Linkando Design." />
                     <p>Amei o trabalho, traduziu exatamente o que eu queria! Muito obrigada!</p>
                     <p class="autor-comentario mb-0">Mariah</p>
-                    <a class="mb-0 link-comentario" href="/portfolio/mariah-furlan">Mariah Furlan Acessórios</a>
+                    <a class="mb-0 link-comentario" href="/portfolio/mariah-furlan">Mariah Furlan Acessórios <i class="fa-solid fa-arrow-up-right-from-square ms-2"></i></a>
                 </div>
             </div>
             <div class="col-12 col-lg-4 my-4">
@@ -75,7 +75,7 @@
                     alt="Aspas do card de comentários sobre a Linkando Design." />
                     <p>Gostei bastante, ficou show! Simples, logo fácil de imprimir, adaptável, e estilo estiloso. É perfeito!</p>
                     <p class="autor-comentario mb-0">Antonio</p>
-                    <a class="mb-0 link-comentario" href="/portfolio/mad3-by-nerd">mad3 by nerd</a>
+                    <a class="mb-0 link-comentario" href="/portfolio/mad3-by-nerd">mad3 by nerd  <i class="fa-solid fa-arrow-up-right-from-square ms-2"></i></a>
                 </div>
             </div>
             <div class="col-12 col-lg-4 my-4">
@@ -84,7 +84,7 @@
                     alt="Aspas do card de comentários sobre a Linkando Design." />
                     <p>Gente eu amei minha logo, já profetizo ela na minha parede, eu achei lindo, lindo!</p>
                     <p class="autor-comentario mb-0">Ana</p>
-                    <a class="mb-0 link-comentario" href="/portfolio/ana-deganello">Ana Deganello Lash Designer</a>
+                    <a class="mb-0 link-comentario" href="/portfolio/ana-deganello">Ana Deganello Lash Designer  <i class="fa-solid fa-arrow-up-right-from-square ms-2"></i></a>
                 </div>
             </div>
         </div>

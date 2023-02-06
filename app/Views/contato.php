@@ -15,11 +15,13 @@
         </div>
         <div class="row justify-content-center mt-5">
             <div class="col-12 col-lg-5 mb-5">
-                <div class="card card-contato text-center">
-                    <label>E-MAIL</label>
-                    <img class="img-fluid my-4" src="<?= IMG ?>/iconecardemail.webp" alt="Ícone e-mail">
-                    <p>contato@linkandodesign.com.br</p>
-                </div>    
+                <a href="mailto:contato@linkandodesign.com.br?subject=Contato através do site&cc=linkandodesign@gmail.com&body=Oi, vim pelo site, gostaria de um atendimento.">
+                    <div class="card card-contato text-center">
+                        <label>E-MAIL</label>
+                        <img class="img-fluid my-4" src="<?= IMG ?>/iconecardemail.webp" alt="Ícone e-mail">
+                        <p>contato@linkandodesign.com.br</p>
+                    </div>
+                </a>
             </div>
             <div class="col-12 col-lg-5 mb-5">
                 <a href="https://api.whatsapp.com/send?phone=5544991024165&text=Ol%C3%A1,%20vim%20pelo%20site,%20gostaria%20de%20um%20atendimento." target="_blank">

@@ -8,7 +8,12 @@
             </div>
             <div class="row text-center mt-3 mx-lg-5">
                 <div class="col-12 col-lg mt-4 p-0">
-                    <p><i class="fa-regular fa-envelope me-2 cor-amarela"></i>contato@linkandodesign.com.br</p>
+                    <p>
+                        <a href="mailto:contato@linkandodesign.com.br?subject=Contato através do site&cc=linkandodesign@gmail.com&body=Oi, vim pelo site, gostaria de um atendimento.">    
+                            <i class="fa-regular fa-envelope me-2 cor-amarela"></i>contato@linkandodesign.com.br
+                        </a>
+                    </p>
+                </p>
                 </div>
                 <div class="col-12 col-lg mt-4 p-0">
                     <p>
@@ -39,6 +44,7 @@
         <img class="img-fluid" src="<?= IMG ?>/whats.svg" alt="Whatsapp flutuante para contato com a Linkando Design.">
     </a>
 </div>
+<script src="https://www.google.com/recaptcha/api.js?render=6Ld6bzgkAAAAAAg2_dNUDcSHb32fTnOUdmNWY1Rc"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/keen-slider@6.7.0/keen-slider.min.js"></script>

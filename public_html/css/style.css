@@ -8,6 +8,21 @@
     --cor-clara: #FFFFFF;
 }
 
+.form-control + label {
+    color: var(--texto-fundo-preto);
+}
+
+.form-control.is-invalid:focus, .was-validated .form-control:invalid:focus {
+    box-shadow: none;
+}
+
+.grecaptcha-badge {
+    position: absolute;
+    left: -200px;
+    bottom: 0;
+    opacity: 0 !important;
+}
+
 * {
     font-family: 'Prompt', sans-serif !important;
     font-variant: normal;
@@ -17,7 +32,7 @@
 body {
     background-color: var(--preto-principal);
     overflow-x: hidden;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .navbar-dark .navbar-toggler .navbar-toggler-icon {
@@ -229,7 +244,6 @@ h2 label, h3 label {
 }
 
 .section-oquefazemos .desc-servicos p {
-    font-size: 16px;
     margin-bottom: 0px;
 }
 
@@ -260,6 +274,14 @@ h2 label, h3 label {
     box-shadow: none;
     padding: 15px 66px;
     font-weight: 500;
+    transition: 0.3s all;
+}
+
+.btn.btn-tema:not(.nav-pills .nav-link, .btn-check+.btn):hover {
+    background-color: var(--preto-principal);
+    color: var(--cor-amarela);
+    border-color: var(--preto-principal);
+    font-weight: 300;
 }
 
 .btn.btn-outline {
@@ -282,6 +304,11 @@ h2 label, h3 label {
     outline: none;
     font-size: 16px;
     opacity: 0.4;
+    transition: 0.3s all;
+}
+
+.btn-check+.btn:hover {
+    opacity: 1;
 }
 
 .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
@@ -313,6 +340,12 @@ h2 label, h3 label {
     box-shadow: none;
     padding: 15px 46px;
     font-weight: 500;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: var(--cor-amarela);
+    border: 1px solid var(--cor-amarela) !important;
+    color: var(--preto-principal);
 }
 
 .form-control, .form-select {
@@ -416,12 +449,24 @@ input ~ label, textarea ~ label, .form-floating>label, .body-portfolio .referenc
     font-size: 16px;
 }
 
+input[type='checkbox']:checked~label.btn-tema::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f560';
+    margin-left: 10px;
+}
+
 .card {
     box-shadow: 0px 10px 30px rgba(122, 119, 134, 0.15);
     border-radius: 6px;
     padding: 2em;
     border: none;
     height: auto;
+    transition: 0.3s all;
+}
+
+a .card:hover {
+    box-shadow: 0px 10px 30px rgba(122, 119, 134, 0.4);
 }
 
 .card img {
@@ -641,6 +686,48 @@ input ~ label, textarea ~ label, .form-floating>label, .body-portfolio .referenc
     border: none;
 
 }
+
+.mensagem-invalido {
+    height: 0;
+    width: 100%;
+    z-index: 5;
+    padding: 0 2rem;
+    font-size: .875rem;
+    color: #fff;
+    background-color: rgba(220,53,69,.9);
+    border-radius: 0.25rem;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.mensagem-valido {
+    height: 0;
+    width: 100%;
+    z-index: 5;
+    padding: 0 2rem;
+    font-size: .875rem;
+    color: #fff;
+    background-color: rgb(25, 135, 84, 0.9);
+    border-radius: 0.25rem;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.progress-active{
+    position: absolute;
+    height: 10px;
+    border-radius: 0.25rem;
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(10, 69, 42, 0.9);
+    animation: progress-animation 5s infinite;
+ }
+
+ @keyframes progress-animation{
+     0% { width: 0%; } 
+     100% { width: 100%}
+ }
 
 @media (max-width: 992px) { 
     .texto-portfolio-coopertec, 

@@ -50,9 +50,9 @@
                     <li class="nav-item ms-lg-4">
                         <a class="nav-link text-center <?= $active['orcamento'] == true ? 'cor-amarela' : '' ?>" href="/orcamento">Orçamento</a>
                     </li>
-                    <!-- <li class="nav-item ms-lg-4">
+                    <li class="nav-item ms-lg-4">
                         <a class="nav-link text-center <?= $active['loja'] == true ? 'cor-amarela' : '' ?>" href="/loja">Loja</a>
-                    </li> -->
+                    </li>
                     <li class="nav-item ms-lg-4">
                         <a class="nav-link text-center <?= $active['duvidas'] == true ? 'cor-amarela' : '' ?>" href="/duvidas">Dúvidas</a>
                     </li>

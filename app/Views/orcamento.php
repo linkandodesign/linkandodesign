@@ -8,6 +8,7 @@
         </div>
         <div class="row justify-content-center mt-5">
             <div class="col-12 col-lg-8">
+                <input type="hidden" value="true" id="status">
                 <ul class="nav nav-pills steps-orcamento nav-justified" id="pills-tab" role="tablist">
                     <li class="nav-item text-center align-items-center" role="presentation">
                         <a class="nav-link mb-5 mx-auto active" id="pills-1-tab" data-bs-toggle="pill" data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1" aria-selected="true">
@@ -112,7 +113,12 @@
                             </div>
                             <div class="row justify-content-end">
                                 <div class="col">
-                                    <div class="mensagem-invalido" id="mensagemInvalido1">invalido</div>
+                                    <div class="mensagem-info position-relative" id="mensagemInfo1">
+                                        <label></label>
+                                    </div>
+                                    <div class="mensagem-invalido position-relative" id="mensagemInvalido1">
+                                        <label></label>
+                                    </div>
                                     <div class="mensagem-valido position-relative" id="mensagemValido1">
                                         <label></label>
                                         <div class="progress-bar1"></div>
@@ -152,8 +158,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-floating mb-3">
-                                        <textarea class="form-control" placeholder="O que a empresa faz? Se preferir, conte um pouco da história da empresa." name="empresaFaz" id="empresaFaz"
-                                        style="height: 100px"></textarea>
+                                        <textarea class="form-control" placeholder="O que a empresa faz? Se preferir, conte um pouco da história da empresa." name="empresaFaz" id="empresaFaz" style="height: 100px"></textarea>
                                         <label for="empresaFaz">O que a empresa faz? Se preferir, conte um pouco da história da empresa.</label>
                                     </div>
                                 </div>
@@ -178,17 +183,21 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-floating mb-3">
-                                        <textarea class="form-control" placeholder="O que você espera que esse projeto faça por sua empresa?" name="objetivoProjeto" id="objetivoProjeto"
-                                        style="height: 100px"></textarea>
+                                        <textarea class="form-control" placeholder="O que você espera que esse projeto faça por sua empresa?" name="objetivoProjeto" id="objetivoProjeto" style="height: 100px"></textarea>
                                         <label for="objetivoProjeto">O que você espera que esse projeto faça por sua empresa?</label>
                                     </div>
                                 </div>
                             </div>
                             <div class="row justify-content-end">
                                 <div class="col">
-                                    <div class="mensagem-invalido" id="mensagemInvalido2">invalido</div>
+                                    <div class="mensagem-info position-relative" id="mensagemInfo2">
+                                        <label></label>
+                                    </div>
+                                    <div class="mensagem-invalido position-relative" id="mensagemInvalido2">
+                                        <label></label>
+                                    </div>
                                     <div class="mensagem-valido position-relative" id="mensagemValido2">
-                                        <label class="mensagem2"></label>
+                                        <label></label>
                                         <div class="progress-bar2"></div>
                                     </div>
                                 </div>
@@ -240,17 +249,21 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-floating mb-3">
-                                        <textarea class="form-control" placeholder="Tem mais alguma informação que considere relevante no momento?" name="informacaoAdicional" id="informacaoAdicional"
-                                        style="height: 100px"></textarea>
+                                        <textarea class="form-control" placeholder="Tem mais alguma informação que considere relevante no momento?" name="informacaoAdicional" id="informacaoAdicional" style="height: 100px"></textarea>
                                         <label for="informacaoAdicional">Tem mais alguma informação que considere relevante no momento?</label>
                                     </div>
                                 </div>
                             </div>
                             <div class="row justify-content-end">
                                 <div class="col">
-                                    <div class="mensagem-invalido" id="mensagemInvalido3">invalido</div>
+                                    <div class="mensagem-info position-relative" id="mensagemInfo3">
+                                        <label></label>
+                                    </div>
+                                    <div class="mensagem-invalido position-relative" id="mensagemInvalido3">
+                                        <label></label>
+                                    </div>
                                     <div class="mensagem-valido position-relative" id="mensagemValido3">
-                                        <label class="mensagem3"></label>
+                                        <label></label>
                                         <div class="progress-bar3"></div>
                                     </div>
                                 </div>

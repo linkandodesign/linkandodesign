@@ -60,36 +60,59 @@ function pesquisa(servico) {
 }
 
 function mensagemSucesso(mensagem, step) {
-  showMessage(mensagem, step);
+  let tipo = "Valido";
+  showMessage(mensagem, tipo, step);
   setTimeout(() => {
-    hideMessage(step);
+    hideMessage(tipo, step);
   }, 5000);
 }
 
-function showMessage(msg, step) {
-  document.getElementById(`mensagemValido${step}`).style.opacity = "1";
-  document.getElementById(`mensagemValido${step}`).style.paddingBottom = "1rem";
-  document.getElementById(`mensagemValido${step}`).style.paddingTop = "1rem";
-  document.getElementById(`mensagemValido${step}`).style.height = "auto";
-  document.querySelector(`#mensagemValido${step} label`).innerHTML = msg;
-  document
-    .querySelector(`.progress-bar${step}`)
-    .classList.add("progress-active");
+function mensagemErro(mensagem, step) {
+  let tipo = "Invalido";
+  showMessage(mensagem, tipo, step);
+  setTimeout(() => {
+    hideMessage(tipo, step);
+  }, 5000);
 }
 
-function hideMessage(step) {
-  document.getElementById(`mensagemValido${step}`).style.opacity = "0";
-  document.getElementById(`mensagemValido${step}`).style.paddingBottom = "0";
-  document.getElementById(`mensagemValido${step}`).style.paddingTop = "0";
-  document.getElementById(`mensagemValido${step}`).style.height = "0";
+function mensagemInfo(mensagem, step) {
+  let tipo = "Info";
+  showMessage(mensagem, tipo, step);
+  let timeOutErro = setTimeout(() => {
+    hideMessage(tipo, step);
+  }, 5000);
+  clearTimeout(timeOutErro);
+}
+
+function showMessage(msg = "", tipo = "Valido", step = 1) {
+  document.getElementById("status").value = "true";
+  document.getElementById("mensagemInfo1").style.opacity = "0";
+  document.getElementById("mensagemInfo1").style.paddingBottom = "0";
+  document.getElementById("mensagemInfo1").style.paddingTop = "0";
+  document.getElementById("mensagemInfo1").style.height = "0";
+  document.getElementById(`mensagem${tipo}${step}`).style.opacity = "1";
+  document.getElementById(`mensagem${tipo}${step}`).style.paddingBottom =
+    "1rem";
+  document.getElementById(`mensagem${tipo}${step}`).style.paddingTop = "1rem";
+  document.getElementById(`mensagem${tipo}${step}`).style.height = "auto";
+  document.querySelector(`#mensagem${tipo}${step} label`).innerHTML = msg;
+  document
+    .querySelector(`.progress-bar${step}`)
+    .classList.add(`progress${tipo}-active`);
+}
+
+function hideMessage(tipo, step) {
+  document.getElementById(`mensagem${tipo}${step}`).style.opacity = "0";
+  document.getElementById(`mensagem${tipo}${step}`).style.paddingBottom = "0";
+  document.getElementById(`mensagem${tipo}${step}`).style.paddingTop = "0";
+  document.getElementById(`mensagem${tipo}${step}`).style.height = "0";
   document.getElementById(`pills-${step}`).classList.remove("show", "active");
   document.getElementById(`pills-${step + 1}`).classList.add("show", "active");
   document.getElementById(`pills-${step}-tab`).classList.remove("active");
   document.getElementById(`pills-${step + 1}-tab`).classList.add("active");
   document
     .querySelector(`.progress-bar${step}`)
-    .classList.remove("progress-active");
-  console.log(step);
+    .classList.remove(`progress${tipo}-active`);
   switch (step) {
     case 1:
       var scrollDiv =
@@ -147,7 +170,12 @@ function mascaraFone(evt) {
 }
 document.getElementById("whatsapp").addEventListener("keyup", mascaraFone);
 
+document
+  .getElementById("whatsapp")
+  .addEventListener("focusout", buscaPrimeiroForm);
+
 function mascaraEmail() {
+  buscaPrimeiroForm();
   let input = document.getElementById("email");
   let re = /\S+@\S+\.\S+/;
   let valida = re.test(input.value);
@@ -179,9 +207,11 @@ function primeiroForm(event) {
           const cidade = form.cidade.value;
           const option = form.comoEncontrou;
           const comoEncontrou = option.options[option.selectedIndex].value;
+          const statusForm = document.getElementById("status").value;
           fetch("primeiroForm", {
             method: "POST",
             body: JSON.stringify({
+              statusForm,
               token,
               nomeResponsavel,
               cargoResponsavel,
@@ -272,25 +302,63 @@ function validaPrimeiroForm(form) {
 }
 
 function buscaPrimeiroForm() {
-  const form = document.querySelector("form");
+  const form = document.querySelector("form#primeiroForm");
   const optionPais = form.paisFone;
   const paisFone = optionPais.options[optionPais.selectedIndex].value;
   const whatsapp = form.whatsapp.value;
   const email = form.email.value;
-  fetch("buscaPrimeiroForm", {
-    method: "POST",
-    body: JSON.stringify({
-      paisFone,
-      whatsapp,
-      email,
-    }),
-  })
-    .then((res) => {
-      console.log("aqui: " + res);
-    })
-    .catch((err) => {
-      console.log("não foi");
-    });
+  const showData = async () => {
+    try {
+      const response = await fetch("buscaContato", {
+        method: "POST",
+        body: JSON.stringify({ paisFone, whatsapp, email }),
+        headers: {
+          "Content-Type": "application/json",
+          "X-Requested-With": "XMLHttpRequest",
+        },
+      });
+      const data = await response.json();
+      if (data.length >= 1) {
+        if (data[0].email === email) {
+          document.getElementById("status").value = "false";
+          document.querySelector(".texto-orcamento").innerHTML = "";
+          mensagemInfo(
+            `E-mail <strong>"${email}"</strong> já cadastrado em nosso sistema!`,
+            1
+          );
+          preenchePrimeiroForm(data[0]);
+        }
+        if (data[0].whatsapp === whatsapp) {
+          document.getElementById("status").value = "false";
+          document.querySelector(".texto-orcamento").innerHTML = "";
+          mensagemInfo(
+            `Whatsapp <strong>"${whatsapp}"</strong> já cadastrado em nosso sistema!`,
+            1
+          );
+          preenchePrimeiroForm(data[0]);
+        }
+      } else {
+        document.getElementById("status").value = "true";
+        document.getElementById("mensagemInfo1").style.opacity = "0";
+        document.getElementById("mensagemInfo1").style.paddingBottom = "0";
+        document.getElementById("mensagemInfo1").style.paddingTop = "0";
+        document.getElementById("mensagemInfo1").style.height = "0";
+      }
+    } catch (err) {
+      console.log(err);
+    }
+  };
+  showData();
+}
+
+function preenchePrimeiroForm(data) {
+  document.getElementById("nomeResponsavel").value = data.nomeResponsavel;
+  document.getElementById("cargoResponsavel").value = data.cargoResponsavel;
+  document.getElementById("tempoTrabalho").value = data.tempoTrabalho;
+  document.getElementById("redeSiteEmpresa").value = data.redeSiteEmpresa;
+  document.getElementById("paisFone").value = data.paisFone;
+  document.getElementById("cidade").value = data.cidade;
+  document.getElementById("comoEncontrou").value = data.comoEncontrou;
 }
 
 function segundoForm(event) {

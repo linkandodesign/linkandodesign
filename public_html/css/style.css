@@ -694,7 +694,7 @@ a .card:hover {
     padding: 0 2rem;
     font-size: .875rem;
     color: #fff;
-    background-color: rgba(220,53,69,.9);
+    background-color: rgba(220, 53, 69, 0.8);
     border-radius: 0.25rem;
     opacity: 0;
     transition: opacity .5s;
@@ -707,20 +707,44 @@ a .card:hover {
     padding: 0 2rem;
     font-size: .875rem;
     color: #fff;
-    background-color: rgb(25, 135, 84, 0.9);
+    background-color: rgba(25, 135, 84, 0.8);
     border-radius: 0.25rem;
     opacity: 0;
     transition: opacity .5s;
 }
 
-.progress-active{
+.mensagem-info {
+    height: 0;
+    width: 100%;
+    z-index: 5;
+    padding: 0 2rem;
+    font-size: .875rem;
+    color: var(--preto-principal);
+    background-color: var(--cor-amarela);
+    border-radius: 0.25rem;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.progressValido-active{
     position: absolute;
     height: 10px;
     border-radius: 0.25rem;
     width: 0%;
     left: 0;
     bottom: 0;
-    background-color: rgba(10, 69, 42, 0.9);
+    background-color: rgba(25, 135, 84, 1);
+    animation: progress-animation 5s infinite;
+ }
+
+.progressInvalido-active{
+    position: absolute;
+    height: 10px;
+    border-radius: 0.25rem;
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    background-color: transparent;
     animation: progress-animation 5s infinite;
  }
 

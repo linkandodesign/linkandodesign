@@ -1,4 +1,4 @@
-<section class="section-lojahome" id="sectionLojaHome">
+<!-- <section class="section-lojahome" id="sectionLojaHome">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6 mb-3">
@@ -13,7 +13,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <section class="section-quemsomos" id="sectionQuemSomos">
     <div class="container text-center">
         <h2>QUEM SOMOS <label class="cor-amarela">?</label></h2>
@@ -91,22 +91,22 @@
     </div>
 </section>
 <section class="section-oquefazemos" id="sectionOquefazemos">
-    <div class="container text-center">
+    <div class="container text-center pt-5">
         <h2>O QUE FAZEMOS <label class="cor-amarela">?</label></h2>
-        <div class="row mb-5 desc-servicos">
-            <div class="col-12 col-lg-4 my-5">
+        <div class="row mb-0 desc-servicos">
+            <div class="col-12 col-lg-4 mb-5 mt-2">
                 <h3 class="mb-4">DESIGN DE MARCAS</h3>
                 <p>Branding</p>
                 <p>Rebranding</p>
                 <p>Identidade visual</p>
             </div>
-            <div class="col-12 col-lg-4 my-5">
+            <div class="col-12 col-lg-4 mb-5 mt-2">
                 <h3 class="mb-4">UI/UX DESIGN</h3>
                 <p>Site</p>
                 <p>Aplicativo</p>
                 <p>Sistema</p>
             </div>
-            <div class="col-12 col-lg-4 my-5">
+            <div class="col-12 col-lg-4 mb-5 mt-2">
                 <h3 class="mb-4">SOCIAL MEDIA</h3>
                 <p>Análise de perfil</p>
                 <p>Planejamento estratégico</p>
@@ -246,7 +246,7 @@
         </div>
     </div>
 </section>
-<section class="section-materiais text-center" id="sectionMateriais">
+<!-- <section class="section-materiais text-center" id="sectionMateriais">
     <div class="container">
         <h3>CONFIRA ALGUNS DOS ÍTENS DA NOSSA LOJA</h3>
         <div class="row mt-5">
@@ -276,4 +276,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->

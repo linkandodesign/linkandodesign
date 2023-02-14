@@ -1,11 +1,6 @@
 <section class="section-portfolio" id="sectionPortfolio">
     <div class="container">
-        <div class="row">
-            <div class="col text-center">
-                <p class="my-5">Aqui estão apenas alguns de nossos projetos, iremos alternando aos poucos, fica de olho!</p>
-            </div>
-        </div>
-        <div class="row my-5">
+        <div class="row mb-5">
             <div class="col text-center">
                 <p>Selecione o serviço desejado para ver o portfolio:</p>
                 <ul class="nav nav-pills mb-5 justify-content-center" id="pills-tab" role="tablist">

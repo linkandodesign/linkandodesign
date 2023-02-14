@@ -9,6 +9,8 @@ class ModelOrcamento extends Model
     protected $table = 'orcamento';
     protected $primaryKey = 'id_orcamento';
     protected $allowedFields = [
+        'dataInsert',
+        'dataUpdate',
         'nomeResponsavel',
         'cargoResponsavel',
         'tempoTrabalho',

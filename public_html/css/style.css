@@ -188,15 +188,24 @@ a:hover {
 }
 
 .arrow-down-inicio {
+    margin-top: -25px;
     position: absolute;
     left: 50%;
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
-    margin-top: 102px;
 }
 
-.form-contato {
-    padding: 100px 0;
+.existe-mensagem {
+    position: fixed;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 40px;
+    max-width: 600px;
+    box-shadow: 0px 10px 30px rgba(122, 119, 134, 0.8);
+    background-color: var(--preto-principal);
+    color: var(--cor-clara);
+    border-radius: 6px;
 }
 
 .section-lojahome {
@@ -280,8 +289,7 @@ h2 label, h3 label {
 .btn.btn-tema:not(.nav-pills .nav-link, .btn-check+.btn):hover {
     background-color: var(--preto-principal);
     color: var(--cor-amarela);
-    border-color: var(--preto-principal);
-    font-weight: 300;
+    border: 1px solid var(--cor-amarela);
 }
 
 .btn.btn-outline {
@@ -454,6 +462,10 @@ input[type='checkbox']:checked~label.btn-tema::after {
     font-weight: 900;
     content: '\f560';
     margin-left: 10px;
+}
+
+#modalContato .modal-content {
+    max-width: 500px;
 }
 
 .card {

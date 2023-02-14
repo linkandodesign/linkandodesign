@@ -6,7 +6,7 @@
             </div>
             <div class="col-12 col-lg-12 text-center mb-4">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="https://www.w3.org/2000/svg">
-                <path d="M6 13L12 19L18 13M6 5L12 11L18 5" stroke="#27272B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6 13L12 19L18 13M6 5L12 11L18 5" stroke="#27272B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
             </div>
             <div class="col-12 col-lg-12 text-center mb-5">
@@ -15,7 +15,7 @@
         </div>
         <div class="row justify-content-center mt-5">
             <div class="col-12 col-lg-5 mb-5">
-                <a href="mailto:contato@linkandodesign.com.br?subject=Contato através do site&cc=linkandodesign@gmail.com&body=Oi, vim pelo site, gostaria de um atendimento.">
+                <a href="#" onclick="modalContato(event)">
                     <div class="card card-contato text-center">
                         <label>E-MAIL</label>
                         <img class="img-fluid my-4" src="<?= IMG ?>/iconecardemail.webp" alt="Ícone e-mail">
@@ -25,11 +25,11 @@
             </div>
             <div class="col-12 col-lg-5 mb-5">
                 <a href="https://api.whatsapp.com/send?phone=5544991024165&text=Ol%C3%A1,%20vim%20pelo%20site,%20gostaria%20de%20um%20atendimento." target="_blank">
-                <div class="card card-contato text-center">
+                    <div class="card card-contato text-center">
                         <label>WHATS</label>
                         <img class="img-fluid my-4" src="<?= IMG ?>/iconecardwhats.webp" alt="Ícone whatsapp">
                         <p>44 9102-4165</p>
-                    </div>    
+                    </div>
                 </a>
             </div>
         </div>

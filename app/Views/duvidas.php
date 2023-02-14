@@ -5,7 +5,7 @@
                 <p>Precisa de ajuda? Selecione o serviço e veja no que podemos te ajudar.</p>
             </div>
             <div class="col-12 col-lg-12 text-center mb-5">
-            <ul class="nav nav-pills mb-5 justify-content-center" id="pills-tab" role="tablist">
+                <ul class="nav nav-pills mb-5 justify-content-center" id="pills-tab" role="tablist">
                     <li class="nav-item mb-4" role="presentation">
                         <button class="mx-2 nav-link active" id="pills-todos-tab" data-bs-toggle="pill" data-bs-target="#pills-todos" type="button" role="tab" aria-controls="pills-todos" aria-selected="true">TODOS</button>
                     </li>
@@ -150,21 +150,21 @@
         </div>
         <div class="row justify-content-center mt-5">
             <div class="col-12 col-lg-5 mb-5">
-                <a href="mailto:contato@linkandodesign.com.br?subject=Contato através do site - Dúvidas&cc=linkandodesign@gmail.com&body=Oi, vim pelo site, tenho uma dúvida, podem me ajudar?">
+                <a href="#" onclick="modalContato(event)">
                     <div class="card card-contato text-center">
                         <label>E-MAIL</label>
                         <img class="img-fluid my-4" src="<?= IMG ?>/iconecardemail.webp" alt="Ícone e-mail">
                         <p>contato@linkandodesign.com.br</p>
                     </div>
-                </a>    
+                </a>
             </div>
             <div class="col-12 col-lg-5 mb-5">
                 <a href="https://api.whatsapp.com/send?phone=5544991024165&text=Ol%C3%A1,%20n%C3%A3o%20encontrei%20o%20que%20procurava%20no%20site,%20poderia%20me%20ajudar?" target="_blank">
-                <div class="card card-contato text-center">
+                    <div class="card card-contato text-center">
                         <label>WHATS</label>
                         <img class="img-fluid my-4" src="<?= IMG ?>/iconecardwhats.webp" alt="Ícone whatsapp">
                         <p>44 9102-4165</p>
-                    </div>    
+                    </div>
                 </a>
             </div>
         </div>

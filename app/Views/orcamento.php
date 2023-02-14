@@ -8,7 +8,9 @@
         </div>
         <div class="row justify-content-center mt-5">
             <div class="col-12 col-lg-8">
-                <input type="hidden" value="true" id="status">
+                <input type="hidden" value="<?= $dadosForm['idOrcamento'] ?>" id="idOrcamento">
+                <input type="hidden" value="<?= $dadosForm['dataInsert'] ?>" id="dataInsert">
+                <input type="hidden" value="<?= $dadosForm['dataUpdate'] ?>" id="dataUpdate">
                 <ul class="nav nav-pills steps-orcamento nav-justified" id="pills-tab" role="tablist">
                     <li class="nav-item text-center align-items-center" role="presentation">
                         <a class="nav-link mb-5 mx-auto active" id="pills-1-tab" data-bs-toggle="pill" data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1" aria-selected="true">
@@ -16,12 +18,12 @@
                         </a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link mb-5 mx-auto" id="pills-2-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                        <a class="nav-link mb-5 mx-auto" id="pills-2-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-2" aria-selected="false">
                             <label>2</label>
                         </a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link mb-5 mx-auto" id="pills-3-tab" data-bs-toggle="pill" data-bs-target="#pills-3" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                        <a class="nav-link mb-5 mx-auto" id="pills-3-tab" data-bs-toggle="pill" data-bs-target="#pills-3" type="button" role="tab" aria-controls="pills-3" aria-selected="false">
                             <label>3</label>
                         </a>
                     </li>
@@ -66,7 +68,7 @@
                                             <option value="+1">CA (+1)</option>
                                             <option value="+34">ES (+34)</option>
                                             <option value="+33">FR (+33)</option>
-                                            <option value="+39">IT( +39)</option>
+                                            <option value="+39">IT (+39)</option>
                                             <option value="+212">PT (+351)</option>
                                             <option value="+1">US (+1)</option>
                                         </select>
@@ -111,7 +113,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row justify-content-end">
+                            <div class="row">
                                 <div class="col">
                                     <div class="mensagem-info position-relative" id="mensagemInfo1">
                                         <label></label>
@@ -188,7 +190,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row justify-content-end">
+                            <div class="row">
                                 <div class="col">
                                     <div class="mensagem-info position-relative" id="mensagemInfo2">
                                         <label></label>
@@ -202,7 +204,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row justify-content-end mt-4">
+                            <div class="row mt-4">
                                 <div class="col-12 col-lg-6">
                                     <div class="text-center">
                                         <button type="button" onclick="voltarForm(2)" class="btn btn-outline w-100">Voltar</button>
@@ -254,7 +256,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row justify-content-end">
+                            <div class="row">
                                 <div class="col">
                                     <div class="mensagem-info position-relative" id="mensagemInfo3">
                                         <label></label>
@@ -268,7 +270,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row justify-content-end mt-4">
+                            <div class="row mt-4">
                                 <div class="col-12 col-lg-6">
                                     <div class="text-center">
                                         <button type="button" onclick="voltarForm(3)" class="btn btn-outline w-100">Voltar</button>
@@ -287,3 +289,18 @@
         </div>
     </div>
 </section>
+<div class="existe-mensagem p-5 d-none">
+    <div class="row">
+        <div class="col-12">
+            <div class="text-center">
+                <p>Você tem um orçamento em andamento, quer continuar preenchendo?</p>
+            </div>
+        </div>
+        <div class="col-12 mt-4">
+            <div class="text-center">
+                <button type="button" class="btn btn-outline bg-white" onclick="esquecerOrcamento()">Esquecer</button>
+                <button type="button" class="btn btn-tema" onclick="continuarOrcamento()">Continuar</button>
+            </div>
+        </div>
+    </div>
+</div>

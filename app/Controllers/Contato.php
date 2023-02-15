@@ -45,14 +45,29 @@ class Contato extends BaseController
             $method = $this->request->getMethod(true);
             if ($method == 'POST') {
                 $json = $this->request->getJSON();
-                $data = [
-                    'dataInsert' => date('Y-m-d'),
-                    'email' => $json->emailContato,
-                    'nome'  => $json->nomeContato,
-                    'mensagem'  => $json->mensagemContato,
-                ];
-                $result = $this->contato->insert($data);
-                echo json_encode($result);
+                if ($json->emailContato && $json->mensagemContato) {
+                    if (!filter_var($json->emailContato, FILTER_VALIDATE_EMAIL)) {
+                        echo json_encode('{"status":"error", "text":"E-mail inválido!"}');
+                        return;
+                    }
+                    $data = [
+                        'dataInsert' => date('Y-m-d'),
+                        'email' => $json->emailContato,
+                        'nome'  => $json->nomeContato,
+                        'mensagem'  => $json->mensagemContato,
+                    ];
+                    try {
+                        $this->contato->insert($data);
+                        echo json_encode('{"status":"ok", "text":"Boa! Sua mensagem foi encaminhada para nossa equipe de atendimento, dentro de até 48 horas entraremos em contato!"}');
+                        return;
+                    } catch (\Exception $e) {
+                        echo json_encode('{"status":"error", "text":"Houve um erro ao cadastrar contato!"}');
+                        return;
+                    }
+                } else {
+                    echo json_encode('{"status":"error", "text":"Preencha todos os campos obrigatórios!"}');
+                    return;
+                }
             }
         }
     }

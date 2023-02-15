@@ -79,8 +79,9 @@ function modalContato(event) {
     document
       .getElementById("emailContato")
       .addEventListener("focusout", mascaraEmail);
-  })
+  });
   divModal.addEventListener("hidden.bs.modal", () => {
+    limpaContato();
     hideMessageContato();
   });
 }
@@ -108,12 +109,27 @@ function formContato(event) {
           })
             .then((response) => {
               if (response.ok) {
-                limpaContato();
-                mensagemSucessoContato("Boa! Sua mensagem foi encaminhada para nossa equipe de atendimento, dentro de até 48 horas entraremos em contato!");
+                return response
+                  .json()
+                  .then((parsedValue) => {
+                    let json = JSON.parse(parsedValue);
+                    if (json.status == "ok") {
+                      limpaContato();
+                      mensagemSucessoContato(json.text);
+                      return;
+                    }
+                    mensagemErroContato(json.text);
+                    return;
+                  })
+                  .catch((err) => {
+                    mensagemErroContato(err);
+                    return;
+                  });
               }
             })
             .catch((error) => {
               mensagemErroContato(error);
+              return;
             });
         }
       });
@@ -161,6 +177,7 @@ function mensagemErroContato(mensagem) {
 }
 
 function showMessageContato(msg = "", tipo = "Valido") {
+  hideMessageContato();
   document.getElementById(`mensagem${tipo}`).style.opacity = "1";
   document.getElementById(`mensagem${tipo}`).style.paddingBottom = "1rem";
   document.getElementById(`mensagem${tipo}`).style.paddingTop = "1rem";
@@ -179,7 +196,6 @@ function hideMessageContato() {
   document.getElementById("mensagemValido").style.paddingTop = "0";
   document.getElementById("mensagemValido").style.height = "0";
   document.querySelector(`#mensagemValido label`).innerHTML = "";
-  limpaContato();
 }
 
 function limpaContato() {

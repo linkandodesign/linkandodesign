@@ -58,14 +58,14 @@
                             </div>
                             <div class="col-12">
                                 <div class="form-floating mb-3 position-relative">
-                                    <input type="text" class="form-control valida-email" id="emailContato" name="emailContato" placeholder="Seu e-mail" required>
+                                    <input type="text" class="form-control valida-email" id="emailContato" name="emailContato" placeholder="Seu e-mail">
                                     <label for="emailContato">* Seu e-mail</label>
                                     <div class="invalid-tooltip">E-mail inválido.</div>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating mb-3 position-relative">
-                                    <textarea class="form-control" placeholder="Sua mensagem" name="mensagemContato" id="mensagemContato" style="height: 100px" required></textarea>
+                                    <textarea class="form-control" placeholder="Sua mensagem" name="mensagemContato" id="mensagemContato" style="height: 100px"></textarea>
                                     <label for="mensagemContato">* Sua mensagem</label>
                                     <div class="invalid-tooltip">Campo obrigatório.</div>
                                 </div>
